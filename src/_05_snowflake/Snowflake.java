@@ -29,7 +29,7 @@ public class Snowflake {
 		for(int i =0; i<6; i++) {
 			
 			// #6. Set the pen color to black
-			robo.setPenColor(Color.black);
+		
 			
 			// #7. move the robot by 50
 			robo.move(50);
@@ -49,18 +49,19 @@ public class Snowflake {
 			
 		}
 			// #9. Use a for loop to do everything (#10, #11) 6 times ( use j as a counter )
-			
+			for(int j=0; j<6; j++) {
 			
 					// #10. turn the robot to the left by 60
-		
-					
-					// #11. move the robot by 50 (play the start button)
-					
+		robo.turn(-60);
+				
+				// #11. move the robot by 50 (play the start button)
+		robo.move(50);			
 				
 			
 			// #14. set the pen color to black
-				
+				robo.setPenColor(Color.black);
 		
 	}
 
+}
 }
