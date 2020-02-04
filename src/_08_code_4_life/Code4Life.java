@@ -38,6 +38,7 @@ public class Code4Life {
 	
 	if(hours>5) {
 		  
+	playBatmanTheme();
 	}
 	}
 	// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
